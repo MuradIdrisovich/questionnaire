@@ -1,1 +1,1 @@
-https://muradidrisovich.github.io/questionnaire/
+https://muradidrisovich.github.io/questionnaire/  React - анкета(опросник). Приложение отображает(задает) вопросы, собирает отдельно ответы и наглядно показывает результаты. Также установлен таймер (useEffect()) кот. останавливается при размонтировании компонента. 
