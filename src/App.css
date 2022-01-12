@@ -1,0 +1,64 @@
+body,
+#root,
+.App,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #d5d5d5;
+}
+.card{
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  width: max-content;
+}
+.card .card-content{
+  padding: 3rem;
+}
+.card-content .control {
+  display: flex;
+  flex-direction: column;
+}
+label.radio {
+  text-align:left;
+  background-color: rgba(211, 211, 211, 0.5);
+  border-radius: 0.3rem;
+  padding: .5rem;
+}
+.radio input {
+  margin-right: 0.3rem;
+}
+.control .radio + .radio{
+  margin-left: 0;
+}
+.error {
+  color: red;
+}
+.modal-card ul {
+  list-style-type: disc;
+}
+.modal-card .modal-card-body {
+  padding: 2rem;
+}
+.App .modal-card  {
+  padding-left: 30px;
+  padding-right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: fit-content;
+}
+.yourAnswer, rightAnswerBlue, rightAnswerGreen {
+  border-radius: .1rem;
+  padding-left: 1rem;
+}
+.yourAnswer {
+  background-color: lightcoral;
+}
+.rightAnswerBlue {
+  background-color: #90a3ee;
+}
+.rightAnswerGreen{
+  background-color: lightgreen;
+}
